@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Product</title>
+</head>
+<body>
+    <header>
+        <div class="logoandname">
+            <img src="\logo.png" id="logo">
+            <h1 id="nameOfTheWebsite">
+                EZShopping
+            </h1>
+        </div>
+        <h4>
+            "We put the ease in shopping"
+        </h2>
+    </header>
+
+    <h2>
+        <b>Add a Product</b>
+    </h2>
+    <h4>Add an item to display on your virtual shop!</h4>
+
+    <form action="" method="POST">
+        <div class="collumn"> 
+            <label for="p_name">Product Name: </label>
+            <input type="text" name = "p_name" id="p_name"><br>
+
+            <label for="category">Category: </label>
+            <input type = "text" name = "category" id = "category"><br>
+
+            <label for="desc">Description:</label>
+            <textarea cols="20" rows="5" name="desc" id="desc"></textarea>
+        </div>
+
+        <div class="collumn"> 
+            <label for="price">Price: </label>
+            <input type = "number" name = "price" id ="price"><br>
+
+            <label for="quantity">Quantity: </label>
+            <input type = "number" step="1" name = "quantity" id ="quantity"><br>
+
+            <label for="image">Download a photo:</label>
+            <input type="file" id="myFile" name="filename">
+            
+        </div>
+
+        <section class="submission">
+            <input type="submit">
+        </section>
+
+        
+    </form>
+
+    <div class="login">
+        <h4>Forgot to login?</h4>
+        <h6>You need to be logged into a supplier account to add a product</h6>
+        <input type="submit" value="Login">
+    </div>
+
+    
+</body>
+</html>
