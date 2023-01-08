@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EZShopping</title>
-    <link rel="stylesheet" href="\css\style.css"></link>
+    <link rel="stylesheet" href="\css\registerstyle.css"></link>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bitter&family=Permanent+Marker&family=Roboto+Mono&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="\css\commonstyle.css"></link>
 </head>
 <body>
     <header>
@@ -26,19 +27,20 @@
         </h2>
     </header>
     <main>
-        <div class="input">
+          
             <form method="post">
                 <div class="column">
 
-                    Account Information
-                    <br><br>
+                    <h3>Account Information</h3>
                     Username:
+                    <br><br>
                     <input type="text" name="fusername">
                     <br><br>
                     Password:
+                    <br><br>
                     <input type="password" name="fpassword">
                     
-                    <p>Personal Information</p>
+                    <h3>Personal Information</h3>
                     Email:
                     <br><br>
                     <input type="text" name="femail">
@@ -47,13 +49,16 @@
                     <br><br>
                     <input type="text" name="flanguage">
                     <br><br>          
-            </div>  
-            <div class="column">
+                </div> 
+                 
+                <div class="column">
                     Country:
+                    <br><br>
                     <input type="text" name="fcountry">
                     <br><br>
                     Zip Code:
-                    <input type="password" name="fzipcode">
+                    <br><br>
+                    <input type="text" name="fzipcode">
                     <br><br>
                     Address:
                     <br><br>
@@ -66,36 +71,53 @@
                     Sex:
                     <br><br>
                     <input type="text" name="flanguage">
-                    <br><br>
-            </div>
-            <div class="column">
-                Name:
-                <input type="text" name="fcountry">
-                <br><br>
-                About:
-                <textarea type="text" name="fabout">
-
-                </textarea>
-                <br><br>
-                Account Type
-                <br><br>
-                Customer
-                <input type="radio" value="Customer" name="fcustomerorseller">
-                <br><br>
-                Supplier
-                <input type="radio" value="Supplier" name="fcustomerorseller">
-                <br><br>
-                
-                <div class="submitButton">
-                    <input type="submit" value="Sign Up">
+                    
                 </div>
-                <br><br>
-                <br><br>
+                
+                <div class="column">
+                    Name:
+                    <br><br>
+                    <input type="text" name="fcountry">
+                    <br><br>
+                    About:
+                    <br><br>
+                    <textarea type="text" name="fabout">
 
-        </div>
+                    </textarea>
+                    <br><br>
+                    Account Type
+                    <br><br>
+                    Customer
+                    <input type="radio" value="Customer" name="fcustomerorseller">
+                    <br><br>
+                    Supplier
+                    <input type="radio" value="Supplier" name="fcustomerorseller">
+                    <br><br>
+                
+                    <div class="submitButton">
+                        <input type="submit" value="Sign Up">
+                    </div>
+                    <br><br>
+                </div>
+                
+            </form>
+            <div class="column" id="escape">
+
+                <h2>Already a Member?</h2>
+                <br><br>
+                <div class="submitButton">
+                    <form action="https://google.com">
+                        <input type="submit" value="Log in" />
+                    </form>
+                </div>
+                
+                
+                      
+            </div> 
             
-        </form>
-        </div>
+        
+            
+            
     </main>
 </body>
 </html>
