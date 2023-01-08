@@ -1,0 +1,42 @@
+
+input,textarea {
+    border: 2px solid black;
+    margin:2px;
+    
+}
+.submitButton input{
+    border:3px solid black;
+    height: 50px;
+    width: 100%;
+    max-width: 200px;
+    font-size: x-large;
+    
+    
+}
+main{
+    background-image: url("/TU-Delft-cover-photo-.jpg");
+    display:flex;
+    width: 100%;
+    height: 76vh;
+    border:3px solid black;
+    padding-bottom: 30px;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+}
+
+.column{
+    overflow:hidden;
+    align-self: center;
+    flex:1; 
+     
+}
+#escape{
+    border:3px solid black;
+    
+}
+form{
+    display: flex;
+
+    width: 75%;
+}
