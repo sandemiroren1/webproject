@@ -2,21 +2,26 @@
 .mainfunctionality{
     display:flex;
     flex-wrap: wrap;
-    justify-content: stretch;
+    
     justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
     
 }
 .checkOutColumnText{
     
     font-size: x-large;
     text-align: center;
-    border: 3px solid black;
+    border-bottom:3px solid lightgray;
     
 }
 .sectorChild{
+    margin: 30px;
     display:grid;
-
+    border:3px solid #dfcdd7;
+    border-radius: 10px;
+    background-color: #dfcdd7;
     grid-template-columns: 1fr 5fr 1fr;
+    min-width: 400px;
 }
 .sectorChild2{
     flex:1;
@@ -24,22 +29,27 @@
     grid-template-columns: 1fr 5fr 1fr;
     max-width: 500px;
     max-height: auto;
-    border:3px solid black;
+
+    padding: 10px    ;
+    border-radius: 25px;
 
 }
-
+.smallsymbol{
+    max-width: 30px;
+}
 #shoppingcartcontent{
     overflow-y: scroll;
 }
 .shoppingListColumn{
-    border: 2px solid black;
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 .productimage{
     max-width: 100px;
     max-height: auto;
     grid-area: image;
+    margin:10px;
 }
 #product{
     max-width: 700px;
@@ -50,12 +60,19 @@
         "image creator"
         "image desc";
 }
+.product{
+    grid-column: 1 / span 3;
+    display:grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
 .productName{
     grid-area:header;
+    margin-bottom: 10px;
 }
 .productDesc{
-    
+    margin-bottom: 10px;
     grid-area: desc;
+    
 }
 .productSeller{
     grid-area:creator;
@@ -63,6 +80,22 @@
 .productNameInCart{
     max-width: 500px;
     
+}
+#checkout{
+    display:flex;
+    flex-direction: column;
+    margin:30px;
+    border:3px solid #dfcdd7;
+    border-radius: 10px;
+    background-color: #dfcdd7;
+    
+    
+}
+#checkoutButton{
+    background-color:#EB4DA1;
+    color:white;
+    border: 3px solid gray;
+    border-radius: 25px;
 }
 .total{
     flex:1;

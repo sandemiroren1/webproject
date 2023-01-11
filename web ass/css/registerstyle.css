@@ -1,15 +1,19 @@
 
-input,textarea {
-    border: 2px solid black;
+
+.inputbox {
+    border: 2px solid lightgray;
     margin:2px;
     
 }
-.submitButton input{
-    border:3px solid black;
+.button{
+    border: 3px solid light #6f24a4;
+    background-color: #EB4DA1;
+    color:white;
     height: 50px;
     width: 100%;
     max-width: 200px;
     font-size: x-large;
+    border-radius: 5px;
     
     
 }
@@ -17,8 +21,8 @@ main{
     background-image: url("/TU-Delft-cover-photo-.jpg");
     display:flex;
     width: 100%;
-    height: 76vh;
-    border:3px solid black;
+    height: auto;
+    
     padding-bottom: 30px;
     align-items: stretch;
     justify-content: center;
@@ -31,10 +35,8 @@ main{
     flex:1; 
      
 }
-#escape{
-    border:3px solid black;
-    
-}
+
+
 form{
     display: flex;
 
