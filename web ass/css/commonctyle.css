@@ -1,0 +1,36 @@
+*{
+    font-family: 'Cardo', serif;
+    box-sizing: border-box;
+    margin:0px;
+}
+body{
+    display:grid;   
+}
+
+header{
+    background-color:#EB4DA1;
+    display:flex;
+}
+#nameOfTheWebsite{
+    display:inline-block;
+    /*font-family: "Roboto Mono";*/
+    padding-bottom: 15px;
+    letter-spacing: 0.15em;
+    border:3px solid white;
+}
+main{
+    background-image: url("/background.png");
+}
+#logo{
+    display:inline-block;
+    height: auto;
+    width: 20%;
+    max-width: 500px;
+    max-height: auto;
+    min-height: auto;
+    min-width: 250px;
+}
+
+submit:hover{
+    color:#EB4DA1;
+}

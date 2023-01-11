@@ -1,0 +1,52 @@
+#itemPhoto {
+    max-width: 500px;
+    max-height: 800px;
+    margin: 50px;
+    border-color: white;
+    border-width: 20px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 50px;
+    background-color: #d9bfcd;
+    border-radius: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.itemInfo{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.card p {
+    margin: 10px;
+    margin-bottom: 2px;
+}
+
+.itemInfo h3 {
+    margin: 10px;
+    align-self: center;
+}
+
+.rating{
+    display: flex;
+    margin-left: 10px;
+}
+
+.checked {
+    color: orange;
+  }
+
+.cardButton{
+    margin-left: 50px;
+}
+
