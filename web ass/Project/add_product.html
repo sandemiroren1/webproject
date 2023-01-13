@@ -5,65 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add a Product</title>
-    <link rel="stylesheet" href="\css\addpstyle.css"></link>
-    <link rel="stylesheet" href="\css\commonctyle.css"></link>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cardo&family=Merriweather:wght@300&family=Tinos&display=swap" rel="stylesheet">
-
+    <link rel="icon" href="\smallicon.png"></link>
 </head>
 <body>
     <header>
         <div class="logoandname">
             <img src="\logo.png" id="logo">
+            <h1 id="nameOfTheWebsite">
+                EZShopping
+            </h1>
+            <div class="navigation">
+                <a class="navigationlink" href="www.google.com">Homepage</a>
+                <a class="navigationlink" href="www.google.com">My Cart</a>
+                <a class="navigationlink" href="www.google.com">My Account</a>
+                <a class="navigationlink" href="www.google.com">Sign Out</a>
+            </div>
+        </div>
+        <h4>
+            "We put the ease in shopping"
+        </h2>
+    </header>
+
+    <h2>
+        <b>Add a Product</b>
+    </h2>
+    <h4>Add an item to display on your virtual shop!</h4>
+
+    <form action="" method="POST">
+        <div class="collumn"> 
+            <label for="p_name">Product Name: </label>
+            <input type="text" name = "p_name" id="p_name"><br>
+
+            <label for="category">Category: </label>
+            <input type = "text" name = "category" id = "category"><br>
+
+            <label for="desc">Description:</label>
+            <textarea cols="20" rows="5" name="desc" id="desc"></textarea>
+        </div>
+
+        <div class="collumn"> 
+            <label for="price">Price: </label>
+            <input type = "number" name = "price" id ="price"><br>
+
+            <label for="quantity">Quantity: </label>
+            <input type = "number" step="1" name = "quantity" id ="quantity"><br>
+
+            <label for="image">Download a photo:</label>
+            <input type="file" id="myFile" name="filename">
             
         </div>
-    </header>
-        <main>
-            <div class="intro">
-                <h2>
-                    <b>Add a Product</b>
-                </h2>
-                <h4>
-                    Add an item to display on your virtual shop!
-                </h4>
-            </div>
 
-            <form action="" method="POST">
-                <div class="bigcolls">
-                    <div class="collumn"> 
-                        <label class="add" for="p_name">Product Name: </label>
-                        <input type="text" name = "p_name" id="p_name"><br>
+        <section class="submission">
+            <input type="submit">
+        </section>
 
-                        <label class="add" for="category">Category: </label>
-                        <input type = "text" name = "category" id = "category"><br>
+        
+    </form>
 
-                        <label class="add" id="desc" for="desc">Description:</label>
-                        <textarea cols="20" rows="5" name="desc" id="desc"></textarea>
-                    </div>
+    <div class="login">
+        <h4>Forgot to login?</h4>
+        <h6>You need to be logged into a supplier account to add a product</h6>
+        <input type="submit" value="Login">
+    </div>
 
-                    <div class="collumn"> 
-                        <label class="add" for="price">Price: </label>
-                        <input type = "number" name = "price" min="0" id ="price"><br>
-
-                        <label class="add" for="quantity">Quantity: </label>
-                        <input type = "number" step="1" name = "quantity" min="0" id ="quantity"><br>
-
-                        <div class="photoDown">
-                            <label class = "add" id ="Download"for="image">Download Image:</label>
-                            <input type="file" id="myFile" name="filename">
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-
-                <section class="submission">
-                    <input type="submit" id = "addSubmitButton">
-                </section>
-                </form>
-
-
-        </div>
-    </main>
-
+    
 </body>
 </html>

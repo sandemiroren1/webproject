@@ -4,91 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EZShopping</title>
-    <link rel="stylesheet" href="\css\registerstyle.css"></link>
+    <title>Register</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bitter&family=Permanent+Marker&family=Roboto+Mono&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="\css\accountviewstyle.css"></link>
     <link rel="stylesheet" href="\css\commonstyle.css"></link>
+    <link rel="stylesheet" href="\css\registerstyle.css"></link>
+    <link rel="icon" href="\smallicon.png"></link>
 </head>
 <body>
-    <p>lol</p>
     <header>
         <div class="logoandname">
             <img src="\logo.png" id="logo"> 
         </div>
+        <div class="navigation">
+            <a class="navigationlink" href="www.google.com">Homepage</a>
+            <a class="navigationlink" href="www.google.com">My Cart</a>
+            <a class="navigationlink" href="www.google.com">My Account</a>
+            <a class="navigationlink" href="www.google.com">Sign Out</a>
+        </div>
 
     </header>
     <main>
-            
-            <form method="post">
+         <form method="post">
                 <div class="column">
 
                     <h3>Account Information</h3>
-                    Username:
-                    <br><br>
+                    <p>Username:</p>
                     <input type="text" class="inputbox" name="fusername">
-                    <br><br>
-                    Password:
-                    <br><br>
+                    
+                    <p>Password:</p>
+                
                     <input type="password" class="inputbox" name="fpassword">
                     
                     <h3>Personal Information</h3>
-                    Email:
-                    <br><br>
+                    <p>Email:</p>
+                   
                     <input type="text" class="inputbox" name="femail">
-                    <br><br>
-                    Language:
-                    <br><br>
+                    
+                    <p>Language:</p>
+                    
                     <input type="text" class="inputbox" name="flanguage">
-                    <br><br>          
+                           
                 </div> 
                  
                 <div class="column">
-                    Country:
-                    <br><br>
+                    <p>Country:</p>
+             
                     <input type="text" class="inputbox" name="fcountry">
-                    <br><br>
-                    Zip Code:
-                    <br><br>
+                   
+                    <p>Zip Code:</p>
+
                     <input type="text" class="inputbox" name="fzipcode">
-                    <br><br>
-                    Address:
-                    <br><br>
+
+                    <p>Address:</p>
+    
                     <input type="text" class="inputbox" name="faddress">
-                    <br><br>
-                    City:
-                    <br><br>
+                    
+                    <p>City:</p>
+                  
                     <input type="text" class="inputbox" name="flanguage">
-                    <br><br>
-                    Sex:
-                    <br><br>
+                    <p>Sex:</p>
+       
                     <input type="text" class="inputbox" name="flanguage">
                     
                 </div>
                 
                 <div class="column">
-                    Name:
-                    <br><br>
+                    <p>Name:</p>
+        
                     <input type="text" class="inputbox" name="fcountry">
-                    <br><br>
-                    About:
-                    <br><br>
+                    
+                    <p>About:</p>
+                
                     <textarea type="text" class="inputbox" name="fabout">
 
                     </textarea>
-                    <br><br>
-                    Account Type
-                    <br><br>
-                    Customer
+                    
+                    <h3>Account Type</h3>
+                    
+                    <p>Customer</p>
                     <input type="radio" value="Customer" class="inputbox" name="fcustomerorseller">
-                    <br><br>
-                    Supplier
+                    <p>Supplier</p>
+                    
                     <input type="radio" value="Supplier" class="inputbox" name="fcustomerorseller">
-                    <br><br>
+                 
                 
                     <div class="submitButton">
                         <input type="submit" class="button" value="Sign Up">
                     </div>
-                    <br><br>
+                   
                 </div>
                 
             </form>
@@ -105,10 +109,8 @@
                 
                       
             </div> 
-            
-        
-            
-            
+
     </main>
+    
 </body>
 </html>
