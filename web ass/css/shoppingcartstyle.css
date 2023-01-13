@@ -4,14 +4,18 @@
     flex-wrap: wrap;
     
     justify-content: space-around;
-    grid-template-columns: 1fr 1fr;
+
     
 }
 .checkOutColumnText{
     
     font-size: x-large;
     text-align: center;
-    border-bottom:3px solid lightgray;
+
+}
+select{
+    border-color: lightgray;
+    border-radius: 5px;
     
 }
 .sectorChild{
@@ -28,8 +32,8 @@
     display:grid;
     grid-template-columns: 1fr 5fr 1fr;
     max-width: 500px;
-    max-height: auto;
-
+    max-height: 300px;
+    overflow-y: scroll;
     padding: 10px    ;
     border-radius: 25px;
 
@@ -37,6 +41,7 @@
 .smallsymbol{
     max-width: 30px;
 }
+.productName:hover { color: white; }
 #shoppingcartcontent{
     overflow-y: scroll;
 }
@@ -65,10 +70,17 @@
     display:grid;
     grid-template-columns: 1fr 5fr 1fr;
 }
-.productName{
+.productatcheckout{
+    grid-column: 1 / span 3;
+    display:grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+.productName,.productSeller{
+    color: gray;
     grid-area:header;
     margin-bottom: 10px;
 }
+
 .productDesc{
     margin-bottom: 10px;
     grid-area: desc;
@@ -91,6 +103,10 @@
     
     
 }
+#checkoutButton:hover{
+    color:pink;
+    background-color: white;
+}
 #checkoutButton{
     background-color:#EB4DA1;
     color:white;
@@ -98,9 +114,12 @@
     border-radius: 25px;
 }
 .total{
-    flex:1;
-    display:grid;
+    
+    display:flex;
     justify-content: space-between;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1 / span 3;
+    margin: 20px;
+    justify-self: end;
 
 }

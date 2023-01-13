@@ -1,8 +1,7 @@
-
-
 .inputbox {
     border: 2px solid lightgray;
-    margin:2px;
+    margin:10px;
+    border-radius: 5px;
     
 }
 .button{
@@ -17,28 +16,38 @@
     
     
 }
+
 main{
     background-image: url("/TU-Delft-cover-photo-.jpg");
     display:flex;
     width: 100%;
     height: auto;
-    
-    padding-bottom: 30px;
-    align-items: stretch;
+    margin-top: 10px; 
+   
+    align-items: center;
     justify-content: center;
-    align-content: center;
 }
 
 .column{
-    overflow:hidden;
+   
     align-self: center;
     flex:1; 
      
 }
-
+textarea{
+    resize:none;
+    min-height: 75px;
+}
+h2{
+    margin:5px;
+}
+p{
+    margin: 5px;
+}
 
 form{
     display: flex;
-
+    margin: 30px;
     width: 75%;
+    flex-wrap: wrap;
 }

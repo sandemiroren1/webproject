@@ -5,13 +5,19 @@
     
       
 }
-body{
-    display:grid;   
+a, a:hover, a:active, a:visited { color: white; }
+
+.navigationlink{
+    padding: 5px;
 }
 
 header{
     background-color:#EB4DA1;
     display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: 500px;
+    
 }
 #nameOfTheWebsite{
     display:inline-block;
@@ -19,6 +25,10 @@ header{
     padding-bottom: 15px;
     letter-spacing: 0.15em;
     border:3px solid white;
+}
+.navigation{
+   align-self:center;
+   padding-right: 20px;
 }
 main{
     background-image: url("/background.png");
@@ -31,6 +41,7 @@ main{
     max-height: auto;
     min-height: auto;
     min-width: 250px;
+    
 }
 
 submit:hover{
