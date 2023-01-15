@@ -1,0 +1,75 @@
+#itemPhoto {
+    max-width: 500px;
+    max-height: 800px;
+    margin: 50px;
+    border-color: white;
+    border-width: 20px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 50px;
+    background-color: #d9bfcd;
+    border-radius: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    min-width: 400px;
+    justify-items:center ;
+}
+
+.itemInfo{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.card p {
+    margin: 10px;
+    margin-bottom: 2px;
+}
+
+.itemInfo h3 {
+    margin: 10px;
+    align-self: center;
+}
+
+.rating{
+    display: flex;
+    margin-left: 10px;
+}
+
+.checked {
+    color: orange;
+  }
+
+.cartButton{
+    margin-left: 50px;
+    grid-column: 2 / span 2;
+    display: flex;
+
+}
+.button{
+    min-width: 150px;
+    min-height: 50px;
+    font-weight: bolder;
+    font-size: 26;
+    transition: transform 0.3s ease;
+    border:2px solid lightgray;
+    border-radius: 5px;
+    background-color: #EB4DA1;
+    margin-bottom: 20px;
+}
+
+.button:hover{
+    transform: scale(1.2);
+}
+.buttoncontainer{
+    
+    justify-self: right;
+}
