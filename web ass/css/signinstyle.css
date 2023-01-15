@@ -4,7 +4,14 @@ main div {
 }
 input,textarea {
     border: 2px solid black;
-    margin:2px;
+    margin:10px;
     width: 80%;
     
+}
+h3{
+    margin: 10px;
+}
+a{
+    color: gray;
+
 }

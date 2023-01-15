@@ -19,6 +19,7 @@
     border-radius: 15px;
     margin-left: 200px;
     margin-right: 200px;
+    min-width: 400px;
 }
 
 .itemInfo{
@@ -46,7 +47,27 @@
     color: orange;
   }
 
-.cardButton{
+.cartButton{
     margin-left: 50px;
+    grid-column: 2 / span 2;
+    display: flex;
+
+}
+.button{
+    min-width: 150px;
+    min-height: 50px;
+    font-weight: bolder;
+    font-size: 26;
+    transition: transform 0.3s ease;
+    border:2px solid lightgray;
+    border-radius: 5px;
+    background-color: #EB4DA1;
 }
 
+.button:hover{
+    transform: scale(1.2);
+}
+.buttoncontainer{
+    
+    justify-self: right;
+}

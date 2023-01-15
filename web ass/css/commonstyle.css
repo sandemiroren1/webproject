@@ -5,7 +5,7 @@
     
       
 }
-a, a:hover, a:active, a:visited { color: white; }
+.navigationlink { color: white; }
 
 .navigationlink{
     padding: 5px;

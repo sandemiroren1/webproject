@@ -6,16 +6,23 @@
 }
 .buttonnexttosearch{
     background-color: lightcoral;
-    padding: 5px;
+    padding: 3px;
     border: 2px solid lightgray;
-    margin: 3px;
+    min-width: 115px;
+    min-height: 28px;
     border-radius: 5px;
     transition: transform 0.3s ease;
+    align-self:flex-end;
+    color: white;
+    text-decoration: white  ;
 }
 
 .buttonnexttosearch:hover{
     transform: scale(1.2);
 
+}
+form{
+    margin: 10px;
 }
 p{
     text-align: center;
@@ -33,10 +40,12 @@ p{
 }
 
 .checkbox {
+    
     margin-right: 5px;
 }
 
 .searchbox{
+    align-content: flex-end;
     display: flex;
     justify-content: center;
     margin: 20px;
