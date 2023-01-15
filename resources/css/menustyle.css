@@ -4,6 +4,7 @@ p{
 .items{
     display:flex;
     align-items: center;
+    
 }
 
 /*Styling of the filters*/

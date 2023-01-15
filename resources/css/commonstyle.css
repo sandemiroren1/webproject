@@ -5,6 +5,15 @@
     
       
 }
+body{
+    min-width: 400px;
+}
+header{
+    min-width: 400px;
+}
+main{
+    min-width: 400px;
+}
 .navigationlink { color: white; }
 
 .navigationlink{
