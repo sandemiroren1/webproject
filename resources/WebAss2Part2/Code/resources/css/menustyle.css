@@ -1,0 +1,106 @@
+p{
+    text-align: center;
+}
+.items{
+    display:flex;
+    align-items: center;
+    
+}
+
+/*Styling of the filters*/
+.filter{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    background-color: #e09ec1;
+    border-radius: 15px;
+    align-self: baseline;
+}
+
+.card{ 
+    max-width: 500px;
+    max-height: 600px;
+}
+
+.checkbox {
+    margin-right: 5px;
+}
+
+.searchbox{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.fsec {
+    
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+#filterlabel{
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.filterinput {
+    display: flex;
+    margin: 4px;
+}
+
+#other {
+    margin-bottom: 5px;
+}
+
+#minmax {
+    margin-bottom: 5px;
+}
+
+#max, #min {
+    margin-bottom: 5px;
+}
+
+/*styling of products*/
+
+.productImage{
+    max-width: 300px;
+    max-height: 500px;
+}
+
+.card {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 850px;
+    margin: 20px;
+}
+.addtocart{
+    background-color:#EB4DA1;
+    color:white;
+    border: 3px solid gray;
+    border-radius: 25px;
+    transition:transform 0.3s ease;
+}
+
+.addtocart:hover{
+    transform: scale(1.3);
+}
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;/*it should use all of the space available to it*/
+}
+
+.card h3{
+    margin: 10px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    max-width: 250px;
+    margin: 5px;
+}
