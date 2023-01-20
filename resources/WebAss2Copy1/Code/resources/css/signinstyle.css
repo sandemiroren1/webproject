@@ -1,0 +1,17 @@
+main div {
+    width: 50%;
+    margin: auto;
+}
+input,textarea {
+    border: 2px solid black;
+    margin:10px;
+    width: 80%;
+    
+}
+h3{
+    margin: 10px;
+}
+a{
+    color: gray;
+
+}

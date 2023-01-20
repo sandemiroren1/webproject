@@ -1,0 +1,146 @@
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=b, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="icon" href="/resources/images/smallicon.png"></link>
+    <link rel="stylesheet" href="/resources/css/commonstyle.css"></link>
+    <link rel="stylesheet" href="/resources/css/menustyle.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cardo&family=Merriweather:wght@300&family=Tinos&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bitter&family=Permanent+Marker&family=Roboto+Mono&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logoandname">
+            <img src="/resources/images/logo.png" id="logo">
+            
+        </div>
+        <div class="navigation">
+            <a class="navigationlink" href="index.html">Homepage</a>
+            <a class="navigationlink" href="/resources/Project/shoppingcart.html">My Cart</a>
+            <a class="navigationlink" href="/resources/Project/accountview.html">My Account</a>
+            <a class="navigationlink" href="/resources/Project/signin.html">Sign Out</a>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="searchbox">
+            <form action="">
+                <input type="text" name="searchbox">
+                <input type="submit" name="search" value="Search">
+                
+            </form>
+            
+        </div> 
+        
+        <div class="items">
+            <div class="filter">
+                
+                <h4 id="filterlabel">Filter your results:</h4>
+                <hr>
+                <div class="fsec">
+                    
+                    <label class="filterinput" for="book">
+                        <input  class="checkbox" type="checkbox" name="category" id="book" value="book">
+                        Book
+                    </label>
+                    
+                    <label class="filterinput" for="film">
+                        <input  class="checkbox" type="checkbox" name="category" id="film" value="film">
+                        Film
+                    </label>
+
+                    <label class="filterinput" for="magazine">
+                        <input  class="checkbox" type="checkbox" name="category" id="magazine" value="magazine">
+                        Magazine
+                    </label>
+
+                    <label class="filterinput" for="vinyl">
+                        <input  class="checkbox" type="checkbox" name="category" id="vinyl" value="vinyl">
+                        Vinyl
+                    </label>
+
+                    <label class="filterinput" for="other">
+                        <input  class="checkbox" type="checkbox" name="category" id="other" value="other">
+                        Other
+                    </label>
+                    <hr>
+                </div>
+
+                <div class="fsec">
+                    <form  id = "minmax" action="POST">
+                        <label class="filrange" for="minval">Minimum price:
+                        <input type="number" id="min" name="minval"><br></label>
+
+                        <label class="filrange" for="maxval">Maximum price:
+                        <input type="number" id="maxval" name="maxval"></label>
+                    </form>
+                    <hr>
+                </div>
+
+                <div class="fsec">
+                    <label for="supplier">Supplier:</label>
+                    <input type="text" name="supplier" id="supplier"><br>
+                    
+                </div>
+
+                <div class="fsec">                   
+                    <hr>
+                    <label for="reviewf">Min Reviews:</label><br>
+                    <span>0</span>
+                    <input type="range" min="0" max="5" step="1" id="reviewf"  name="reviewf">
+                    <span>5</span>
+                    
+                </div>
+            </div>
+            
+            <div class="products">
+                <div class="card">
+                    <img src="/resources/images/album.jpeg" alt="Album Cover" class="productImage" style="width:100%">
+                    <a href="/resources/Project/item_page.html"><h3>Kendrick Lamar - To Pimp a Butterfly Vinyl</h3></a>
+                    <p class="category">Vinyl</p>
+                    <p class="price">$29.99</p>
+                    <a href="/resources/Project/supplierpage.html"><p class="supplier">KelebekStore</p></a>
+                    <p>Original vinyl of Kendrick Lamar's "To Pimp a Butterfly"album.</p>
+                    <p><button class="addtocart">Add to Cart</button></p>
+                </div>
+
+                <div class="card">
+                    <img src="/resources/images/achilles.jpeg" alt="Book Cover" class="productImage" style="width:100%">
+                    <a href="/resources/Project/item_page.html"><h3>The Song of Achilles by Madeline Miller</h3></a>
+                    <p class="category">Book</p>
+                    <p class="price">$12.99</p>
+                    <a href="/resources/Project/supplierpage.html"><p class="supplier">RuyaShopping</p></a>
+                    <p>A retelling of the Greek retelling of the myth of Achilles and the Trojan War.</p>
+                    <p><button class="addtocart">Add to Cart</button></p>
+                </div>
+
+                <div class="card">
+                    <img src="/resources/images/PCWorld.jpeg" alt="Magazine Cover" class="productImage" style="width:100%">
+                    <a href="/resources/Project/item_page.html"><h3>PC World </h3></a>
+                    <p class="category">Magazine</p>
+                    <p class="price">$4.98</p>
+                    <a href="/resources/Project/supplierpage.html"><p class="supplier">AmbrusWorld</p></a>
+                    <p>Conquer the hackers!</p>
+                    <p><button class="addtocart">Add to Cart</button></p>
+                </div>
+
+                <div class="card">
+                    <img src="/resources/images/spaceballs.jpg" alt="Film Poster Cover" class="productImage" style="width:100%">
+                    <a href="/resources/Project/item_page.html"><h3>Space Balls DVD</h3></a>
+                    <p class="category">Film</p>
+                    <p class="price">$120.99</p>
+                    <a href="/resources/Project/supplierpage.html"><p class="supplier">Yogurt</p></a>
+                    <p>Epic movie about fighting dark helmet with the zwarts!</p>
+                    <p><button class="addtocart">Add to Cart</button></p>
+                </div>
+            </div>
+        </div>
+    
+    </main>
+
+</body>
+</html>

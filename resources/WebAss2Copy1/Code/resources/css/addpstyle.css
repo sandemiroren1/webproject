@@ -1,0 +1,83 @@
+.collumn {
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    
+}
+.bigcolls{
+    display:flex;
+    justify-content: center;
+
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+h2,  h4 {
+    margin: 2px;
+}
+
+.photoDown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#myFile{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 0px;
+}
+.add{
+    margin-bottom: 5px;
+}
+#desc{
+    max-width: 150px;
+    max-height: 250px;
+    min-width: 100px;
+}
+.submission {
+    display: flex;
+    justify-content: center;
+}
+
+#addSubmitButton {
+    width: 150px;
+    height: 25px;
+    color: rgb(244, 238, 238);
+    background-color:#EB4DA1;
+}
+
+/*
+.photoDown{
+    position: relative;
+}
+div.fakefile {
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	z-index: 1;
+}
+input.file {
+    position: relative;
+	text-align: center;
+	
+	filter:alpha(opacity: 0);
+	opacity: 0.20;
+}
+*/
+
+/*Forgot to login section*/
+.login div{
+    display: flex;
+}
+
+.login input, .login h6{
+    
+    margin: 10px;
+}
